@@ -9,10 +9,158 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Grupo 2 - Practica 2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="270sp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/formato_boton1"
+            android:onClick="calendario"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="10sp"
+                    android:layout_height="10sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_marginEnd="328dp"
+                    android:layout_marginRight="328dp"
+                    android:layout_marginBottom="156dp"
+
+                    app:srcCompat="@drawable/calendario2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10sp" />
+
+        <LinearLayout
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/formato_boton2"
+            android:onClick="mapa"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="10sp"
+                    android:layout_height="10sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    app:srcCompat="@drawable/mapa3" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10sp" />
+
+        <LinearLayout
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/formato_boton3"
+            android:onClick="youtube"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="10sp"
+                    android:layout_height="10sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    app:srcCompat="@drawable/youtube2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10sp" />
+
+        <LinearLayout
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/formato_boton4"
+            android:onClick="grafica"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="10sp"
+                    android:layout_height="10sp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    app:srcCompat="@drawable/grafica" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
